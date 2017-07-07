@@ -5,7 +5,7 @@ library(readr)
 library(ggplot2)
 
 ## Connecting to the Mettl DB
-dbconnect <- odbcConnect("Mettl_DB_Copy", uid = "techSupport", pwd = "Mettl123")
+dbconnect <- odbcConnect("Mettl_DB_Copy", uid = "user", pwd = "pwd")
 
 ## Reading the text file which contains Item Response Query
 IR_query <- read_file("D:/Mettl Advantage Team/5. SQL Queries/SkillName_IR.txt")
